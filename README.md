@@ -99,6 +99,13 @@ End users have full access to the contents of public memory banks influencing th
 ---
 
 ## 6. Conclusion
-This paper presents a user-centered approach to AI memory management for natural language interactions, addressing current limitations through topic-based banks, priority settings, and privacy controls. The hybrid model for handling substantial memory changes ensures consistency, while layered transparency enhances trust. Future enhancements promise to extend functionality, ensuring the system evolves with user needs.
+This paper presents a user-centered approach to AI memory management for natural language interactions, addressing current limitations through topic-based banks, priority settings, and privacy controls. The hybrid model for handling substantial memory changes ensures consistency, while layered transparency enhances trust. Future enhancements promise to extend functionality, so that the system evolves with user needs.
+
+## 7. Acknowledgments
+Some aspects of this draft paper were developed with the assistance of ChatGPT, an AI language model created by OpenAI, used to help refine and articulate the concepts presented.
+
+## 8. License
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
 
 
