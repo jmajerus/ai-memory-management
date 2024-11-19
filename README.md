@@ -90,6 +90,64 @@ End users have full access to the contents of public memory banks influencing th
 
 ---
 
+### **4.7 Saving Chat Content to Named Memory**
+The system provides users with multiple ways to save chat content to named memory banks, integrating both manual and automated workflows.
+
+#### **Manual and Selective Content Addition**
+- Users can highlight specific portions of a chat and save them to a named memory bank or create a new one.
+- Example workflows:
+  - Highlight a technical solution and save it to a relevant topic-based bank.
+  - Save a discussion excerpt to a new project memory bank.
+
+#### **Integration with AI-Generated Summaries**
+- Users can choose to save entire chats or allow the system to generate AI summaries (detailed in Section 4.8) for streamlined organization.
+- **Customization Options**:
+  - Combine selected excerpts with an AI summary to form a more complete memory entry.
+  - Use the summary as a baseline and add or remove specific portions of the chat manually.
+
+#### **Role of the Global Bank**
+- If no specific memory bank is selected, the system defaults to saving content in a private **global bank**. Users can later categorize these items into topic-based banks or adjust privacy settings.
+
+#### **Existing Functionality Retained**
+- Users who prefer the current system’s fully automated workflow can opt to retain its functionality:
+  - Automatic generation of memory items without manual review.
+  - Automatic assignment to the global bank.
+  - Minimal user interaction with memory processes.
+
+---
+
+### **4.8 AI-Generated Chat Summaries for Memory**
+The system offers AI-generated summaries of chats to simplify the process of saving and organizing memory. These summaries are fully integrated with the manual workflows in Section 4.7.
+
+#### **Summary and Memory Bank Assignment**
+- At the end of a chat, the system generates a concise or detailed summary that can be:
+  - Saved directly into the global bank.
+  - Assigned to an existing memory bank or used to create a new one.
+- Users can review and edit the summary before finalizing it, ensuring relevance and accuracy.
+
+#### **Customization and Flexibility**
+- Users can integrate summaries with manually selected chat excerpts (from Section 4.7):
+  - Combine summaries with specific highlighted portions for a more tailored memory.
+  - Use summaries as standalone memory entries for broader organizational needs.
+
+#### **Default to Global Bank**
+- If users opt not to specify a memory bank, the summary is saved to the private **global bank** by default. Users can later assign it to other memory banks as needed.
+
+#### **Existing Functionality Retained**
+- For users who prefer the current system:
+  - AI-generated summaries can still function as they do today, being automatically added to the global bank without review or customization.
+  - This ensures continuity for those who prefer the simplicity of the existing memory workflow.
+
+---
+
+### **Integration Notes**
+- **Interoperability**: Sections 4.7 and 4.8 complement each other by allowing both manual and automated memory management to coexist and interoperate seamlessly.
+- **User Control**:
+  - Users can mix-and-match features, such as combining summaries with excerpts or categorizing entries across banks.
+  - The system ensures flexibility while retaining simplicity for those who prefer automation.
+
+---
+
 ## 5. Future Enhancements
 - **Integration with External Sources**: Linking memory items to external documents or databases to enrich context.
 - **Multi-Layered Banks**: Supporting hierarchical memory banks for complex topics, such as subcategories within a broader domain.
