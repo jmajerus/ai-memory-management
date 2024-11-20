@@ -338,7 +338,12 @@ While the degree of confidence in prompt evaluation is excluded from this versio
 ---
 
 ## 7. Conclusion
-This paper presents a user-centered approach to AI memory management for natural language interactions, addressing current limitations through topic-based banks, priority settings, and privacy controls. The hybrid model for handling substantial memory changes ensures consistency, while layered transparency enhances trust. Future enhancements promise to extend functionality, so that the system evolves with user needs.
+
+This paper proposes a user-centered framework for managing AI memory in natural language systems, addressing current limitations through the introduction of topic-based memory banks, scalable storage, and dynamic disclaimers. By combining proven summary algorithms with user-driven enhancements, the system balances transparency, trust, and flexibility.
+
+Key features, such as priority settings, privacy controls, and trust certification, empower users to tailor memory management to their specific needs while ensuring ethical and reliable system behavior. The hybrid approach to memory updates maintains consistency, while longitudinal tracking and layered transparency provide clarity for end readers.
+
+Looking forward, the system’s scalable design and support for user experimentation lay the groundwork for future enhancements. These could include deeper trust certification processes, confidence metrics, and further refinements to adaptive memory management. Together, these innovations position the system to evolve alongside user needs, promoting a more transparent and trustworthy relationship between users and AI systems.
 
 ---
 
