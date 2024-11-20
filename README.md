@@ -210,8 +210,40 @@ The system offers AI-generated summaries of chats to simplify the process of sav
   - The system ensures flexibility while retaining simplicity for those who prefer automation.
 
 ---
+## **5. Potential Limitations**
+While the proposed system offers significant benefits in transparency, trust, and scalability, it is important to acknowledge potential limitations to ensure a balanced perspective:
 
-## 5. Future Enhancements
+#### **1. Vulnerability to Manipulation**
+- **Bad Actor Exploitation**:
+  - The system’s evaluation of good-faith prompts relies on heuristic-based intent detection. Skilled bad actors could potentially craft prompts that evade detection while still being manipulative or coercive.
+  - Example: Subtle framing or indirect manipulation that avoids overtly loaded language might pass as "good faith."
+
+#### **2. Complexity of User Expectations**
+- **Interpretability**:
+  - Users may misinterpret trust flags, especially in nuanced cases where intent is ambiguous. Ensuring clarity in system feedback is critical to managing expectations and maintaining trust.
+
+#### **3. Resource Overhead**
+- **Performance Costs**:
+  - The additional computational overhead for analyzing prompts, evaluating intent, and certifying responses could slightly impact response time, particularly in resource-constrained environments or high-demand use cases.
+
+#### **Mitigation Strategies**
+1. **Continuous Refinement**:
+   - Regular updates to the heuristic models based on user feedback and adversarial testing can help improve accuracy over time.
+2. **User Education**:
+   - Clear documentation and interface design can help users interpret trust flags appropriately.
+3. **Rate-Limiting**:
+   - For known bad actors, implement rate-limiting or additional security layers to detect and mitigate gaming attempts.
+
+---
+
+## **6. Future Enhancements**
+#### **Confidence Indicators**
+While the degree of confidence in prompt evaluation is excluded from this version for simplicity, it remains a potential future enhancement. Confidence indicators could:
+- Provide users with additional insight into how certain the system is about its evaluations (e.g., *"High confidence"* or *"Moderate confidence"*).
+- Aid in user interpretation of trust flags, particularly in edge cases or ambiguous prompts.
+
+Any implementation of confidence indicators would need to balance usability with interpretability, ensuring that users can easily understand and apply the information provided.
+
 - **Integration with External Sources**: Linking memory items to external documents or databases to enrich context.
 - **Multi-Layered Banks**: Supporting hierarchical memory banks for complex topics, such as subcategories within a broader domain.
 - **Temporal Memory Layers**: Introducing recent and long-term memory layers to optimize relevance and efficiency.
@@ -219,13 +251,17 @@ The system offers AI-generated summaries of chats to simplify the process of sav
 
 ---
 
-## 6. Conclusion
+## 7. Conclusion
 This paper presents a user-centered approach to AI memory management for natural language interactions, addressing current limitations through topic-based banks, priority settings, and privacy controls. The hybrid model for handling substantial memory changes ensures consistency, while layered transparency enhances trust. Future enhancements promise to extend functionality, so that the system evolves with user needs.
 
-## 7. Acknowledgments
+---
+
+## 8. Acknowledgments
 Some aspects of this draft paper were developed with the assistance of ChatGPT, an AI language model created by OpenAI, used to help refine and articulate the concepts presented.
 
-## 8. License
+---
+
+## 9. License
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 
