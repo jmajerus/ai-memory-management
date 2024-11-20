@@ -323,12 +323,12 @@ While the proposed system offers significant benefits in transparency, trust, an
 ---
 
 ## **6. Future Enhancements**
-#### **Confidence Indicators**
+- **Confidence Indicators**
 While the degree of confidence in prompt evaluation is excluded from this version for simplicity, it remains a potential future enhancement. Confidence indicators could:
-- Provide users with additional insight into how certain the system is about its evaluations (e.g., *"High confidence"* or *"Moderate confidence"*).
-- Aid in user interpretation of trust flags, particularly in edge cases or ambiguous prompts.
+  - Provide users with additional insight into how certain the system is about its evaluations (e.g., *"High confidence"* or *"Moderate confidence"*).
+  - Aid in user interpretation of trust flags, particularly in edge cases or ambiguous prompts.
 
-Any implementation of confidence indicators would need to balance usability with interpretability, ensuring that users can easily understand and apply the information provided.
+  Any implementation of confidence indicators would need to balance usability with interpretability, ensuring that users can easily understand and apply the information provided.
 
 - **Integration with External Sources**: Linking memory items to external documents or databases to enrich context.
 - **Multi-Layered Banks**: Supporting hierarchical memory banks for complex topics, such as subcategories within a broader domain.
